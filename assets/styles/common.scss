@@ -1,0 +1,9 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active-opacity {
+  &:active {
+    opacity: 0.5;
+  }
+}

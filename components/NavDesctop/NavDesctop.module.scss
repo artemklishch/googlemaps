@@ -1,0 +1,24 @@
+.NavDesctop {
+  background-color: rgb(89, 72, 236);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__menu {
+    display: flex;
+    padding: 0;
+    &_link {
+      padding: 20px;
+      color: white;
+      margin-left: 30px;
+      &:hover {
+        color: white;
+        background-color: rgb(76, 70, 133);
+        text-decoration: none;
+      }
+      &[aria-current="page"] {
+        text-decoration: underline !important;
+      }
+    }
+  }
+}
